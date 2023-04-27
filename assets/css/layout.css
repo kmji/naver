@@ -2,13 +2,12 @@
 @import './common.css';
 
 
-/* wrapper */
+/* WRAPPER */
 .wrapper{
     min-width: 1190px;
 }
 
-/* header */
-.header{}
+/* HEADER */
 .header .group-flex{
     position: relative;
     width: 1130px;

@@ -8,6 +8,7 @@
 .column-left{width: 750px;}
 .column-right{width: 350px;}
 
+/* SC-NEWS */
 .sc-news{
     margin-top: 12px;
 }
@@ -37,7 +38,6 @@
     text-decoration: none;
     letter-spacing: -.3px;
 }
-.sc-news .group-issue .issue-area .link-issue{}
 .sc-news .group-issue .direct-area{
     display: flex; 
     font-weight: bold;
@@ -167,14 +167,6 @@
 
     content: '';
 }
-
-
-
-
-
-
-
-
 .sc-news .group-media{
     position: relative;
     height: 260px;
@@ -294,6 +286,7 @@
 .sc-news .hr-line.hr2{top: calc(65px*2);}
 .sc-news .hr-line.hr3{top: calc(65px*3);}
 
+/* SC-THEMECAST */
 .sc-themecast{
     padding: 35px 0 27px;
     letter-spacing: -.25px;
@@ -304,7 +297,6 @@
     display: flex;
     justify-content: space-between;
 }
-.sc-themecast .title-area{}
 .sc-themecast .title-area .title{
     font-size: 14px;
     color: #000;
@@ -575,8 +567,6 @@
 .sc-themecast .group-topstory .topstory-box + .topstory-box{
     margin-left: 22px;
 }
-
-.sc-themecast .group-theme{}
 .sc-themecast .list-theme-wrap{
     padding: 18px 0;
 }
@@ -835,7 +825,6 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: start;
-    /* justify-content: space-between; */
 }
 .sc-themecast .media-wrap .date{
     color: grey;
@@ -919,8 +908,6 @@
 .sc-themecast .media-view-wrap.type-flick .pm-btn-next{
     top: 66px;
 }
-
-
 .sc-themecast .media-view-wrap.type-flick .media-wrap .media-box{
     display: inline-block;
     width: 232px;
@@ -1021,6 +1008,7 @@
 }
 
 /* right  */
+/* SC-LOGIN */
 .sc-login{
     padding: 16px 16px 12px 17px;
     background-color: #f7f9fa;
@@ -1098,10 +1086,7 @@
     content: '';
     margin: 2px 5px 0 0;
 }
-
-
-
-
+/* SC-SIDENEWS */
 .sc-sidenews{
     position: relative;
     height: 47px;
@@ -1136,8 +1121,6 @@
 .sc-sidenews .news-wrap:hover .news{
     text-decoration: underline;
 }
-.sc-sidenews .news-wrap .news{}
-
 .sc-sidenews .nav-wrap{
     display: flex;
     position: absolute;
@@ -1152,8 +1135,6 @@
     box-sizing: border-box;
 }
 .sc-sidenews .nav-wrap .btn-nav + .btn-nav{margin-left: -1px;}
-.sc-sidenews .nav-wrap .btn-nav.next{}
-
 .sc-sidenews .nav-wrap .btn-nav.prev::after{
     display: inline-block;
     width: 6px;
@@ -1174,7 +1155,7 @@
     content: '';
     margin: 7px 8px 6px;
 }
-
+/* SC-SHOPCAST */
 .sc-shopcast{
     width: 350px;
     margin-top: 15px;
@@ -1270,7 +1251,6 @@
     border-radius: 50%;
     vertical-align: middle;
 }
-.sc-shopcast .shop-content-area .link-mall{}
 .sc-shopcast .shop-content-area .link-mall strong{
     font-weight: bold;
     color: #202020;
@@ -1302,7 +1282,6 @@
 .sc-shopcast .shop-control .btn-box{
     display: flex;
     overflow: hidden;
-    /* float: left; */
     margin-left: 7px;
 }
 .sc-shopcast .shop-control .btn-box .btn{
@@ -1332,7 +1311,6 @@
     content: '';
     margin: 9px 10px 9px 12px;
 }
-.sc-shopcast .goods-area{}
 .sc-shopcast .goods-area .list-goods{
     display: flex;
     flex-wrap: wrap;
@@ -1458,12 +1436,10 @@
 .sc-shopcast .event-title .shop-control{
     top: -6px;
 }
-.sc-shopcast .event-title .shop-control{}
 .sc-shopcast .event-wrap .list-event{
     margin: 13px 5px 0;
     line-height: 28px;
 }
-.sc-shopcast .event-wrap .event-item{}
 .sc-shopcast .event-wrap .event-link{
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1602,7 +1578,6 @@
 .sc-shopcast .plusdeal-wrap .list-deal{
     margin-top: 20px;
 }
-.sc-shopcast .plusdeal-wrap .deal-item{}
 .sc-shopcast .plusdeal-wrap .deal-link{
     display: flex;
     overflow: hidden;
@@ -1704,7 +1679,6 @@
 .sc-shopcast .plusdeal-wrap .discount{
     color: #f04045;
 }
-.sc-shopcast .plusdeal-wrap .price{}
 .sc-shopcast .plusdeal-wrap .deal-item + .deal-item{
     margin-top: 15px;
 }
